@@ -36,9 +36,9 @@ What's next ?
 ---------------------------------
 Actually now you have already deployed the environment on your computer. 
 You may want to do below things:
-# Open your browser to register an openbiz account locally and experience the UI interactive experience.
-# Try to use appbuilder to automatic generate an openbiz base application and see how cool is it. 
-# if you want to discover more, welcome to follow us and join discussion.
+* Open your browser to register an openbiz account locally and experience the UI interactive experience.
+* Try to use appbuilder to automatic generate an openbiz base application and see how cool is it. 
+* if you want to discover more, welcome to follow us and join discussion.
 
 How to update openbiz libs
 ---------------------------

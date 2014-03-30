@@ -20,17 +20,18 @@ git clone https://github.com/openbiz/openbiz-startup.git
 #go into the project folder
 cd openbiz-startup
 
-#clone openbiz server side framework into your project
-git submodule add https://github.com/openbiz/openbiz.git  node_modules/openbiz 
+#install openbiz environment
+./install-openbiz.sh
 
-#clone openbiz client side framework into your project
-git submodule add https://github.com/openbiz/openbiz-ui.git  node_modules/openbiz-ui 
-
-#clone openbiz client side application platform into your project
-git submodule add https://github.com/openbiz/openbiz-cubi.git  node_modules/openbiz-cubi
-
-
-npm install 
-
+#now its ready to run!
 node app
+```
+
+Open your browser to go to http://localhost:8080 .
+if you have saw page loaded, means its running.
+
+How to update openbiz libs
+---------------------------
+```sh
+./update-openbiz.sh
 ```

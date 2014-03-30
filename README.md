@@ -13,6 +13,7 @@ You can clone the project and start to build and test your own module on it .
 
 How to install (deploy)
 -------------------------
+You can follow below commands to install the openbiz development environment into your computer.
 ```sh
 #clone this project as your project's root folder
 git clone https://github.com/openbiz/openbiz-startup.git
@@ -27,11 +28,13 @@ cd openbiz-startup
 node app
 ```
 
-Open your browser to go to [http://localhost:8080].
+Open your browser to go to http://localhost:8080.
 if you have saw page loaded, means its running.
 
 How to update openbiz libs
 ---------------------------
+For your own project, indeed you can use git pull to update, 
+But for fetch the nightly update openbiz code we have build this script which make it easy for you.
 ```sh
 ./update-openbiz.sh
 ```

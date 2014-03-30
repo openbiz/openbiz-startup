@@ -28,7 +28,7 @@ cd openbiz-startup
 node app
 ```
 
-Open your browser to go to http://localhost:8080.
+Open your browser to go to [http://localhost:8080](http://localhost:8080).
 if you have saw page loaded, means its running.
 
 How to update openbiz libs

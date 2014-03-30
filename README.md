@@ -68,6 +68,30 @@ node app
 
 For more info about how to use appbuilder please reference to openbiz-appbuilder page.
 
+How to manual load your apps
+-------------------------------
+There are 2 places you should looks at, one is about backend another is fronted ,
+To load your app on server side , you should append below line to your /app.js
+Lets say your app is called "demo". below code will load the backend API route listen at /api/demo/*
+and the frontend will be accessable via http://yourhost/apps/demo
+```javascript
+require('./apps/demo')(openbiz).loadAppToRoute('/api/demo')
+		.loadUIToRoute('/apps/demo');
+```
+so far your just made the app's frontend accessable but you didn't tell openbiz to load it on user's browsers.
+below code will register your app to the frontend.
+
+Please open /public/website/app-init.js
+```javascript
+#You will see something like below,
+openbiz.loadApps(['apps/cubi'/*MORE_APPS*/],function(apps){...}
+```
+Now you can add your app's entry point after Cubi, 
+the loading order is mattered and all openbiz's app has to load after openbiz-cubi.
+```javascript
+openbiz.loadApps(['apps/cubi','apps/demo'/*MORE_APPS*/],function(apps){...}
+```
+
 Folder Structures
 -----------------------------
 - apps/ 		---- you applications should goes here

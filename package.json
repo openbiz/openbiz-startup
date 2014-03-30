@@ -20,19 +20,5 @@
     "passport-twitter": "~1.0.2",
     "openbiz": "~4.0.0",
     "openbiz-cubi": "~1.0.0"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.7",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-less": "~0.8.2",
-    "grunt-contrib-jade": "~0.9.0",
-    "grunt-contrib-requirejs": "~0.4.1",
-    "grunt-concurrent": "~0.4.1",
-    "grunt-nodemon": "~0.1.2",
-    "grunt-newer": "~0.6.0",
-    "grunt-jsdoc":"~0.4.2"
   }
 }

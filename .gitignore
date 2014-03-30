@@ -11,3 +11,24 @@ npm-debug.log
 !node_modules/openbiz-ui
 !node_modules/openbiz-cubi
 !node_modules/openbiz-appbuilder
+
+############################
+# tmp, editor & OS files
+############################
+.tmp
+*.swo
+*.swp
+*.swn
+*.swm
+.DS_STORE
+*#
+*~
+.idea
+nbproject
+
+
+############################
+# Tests
+############################
+testApp
+coverage

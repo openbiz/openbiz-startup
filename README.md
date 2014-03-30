@@ -50,11 +50,11 @@ For more info about how to use appbuilder please reference to openbiz-appbuilder
 
 Folder Structures
 -----------------------------
-- apps/ 		---- You applications should goes here
-- certs/ 		---- The cert files for HTTPS encryption
-- public/ 		---- If your project need to build with website, in this folder you can put non-app stuff
-- config.js 	---- All your project configurable setting should defines in this file.
-- app.js 		---- The main entry point of your project
-- appbuilder 	---- A shortcut for launch openbiz appbuilder
+- apps/ 		---- you applications should goes here
+- certs/ 		---- the cert files for HTTPS encryption
+- public/ 		---- if your project need to build with website, in this folder you can put non-app stuff
+- config.js 	---- all your project configurable setting should defines in this file.
+- app.js 		---- the main entry point of your project
+- appbuilder 	---- a shortcut for launch openbiz appbuilder
 - install-openbiz.sh 	---- the installer script
 - update-openbiz.sh 	---- the script for update openbiz libs

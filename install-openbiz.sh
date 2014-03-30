@@ -15,7 +15,7 @@ git submodule add -f https://github.com/openbiz/openbiz-appbuilder.git  node_mod
 ln -s  `pwd`/node_modules/openbiz-appbuilder/bin/appbuilder ./appbuilder
 
 #install appbuilder tools to system bin folder
-ln -s  `pwd`node_modules/openbiz-appbuilder/bin/appbuilder /usr/local/bin/appbuilder
+#ln -s  `pwd`node_modules/openbiz-appbuilder/bin/appbuilder /usr/local/bin/appbuilder
 
 #install other libs dependencied by typical openbiz application
 npm install 

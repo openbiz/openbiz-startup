@@ -14,7 +14,7 @@ var openbizEventsDelegate = {
                   "green":"#99CC00",
                   "lightseagreen":"#1ABC9B"
 		}
-		openbiz.loadApps(['apps/cubi','apps/dss'/*MORE_APPS*/],function(apps){
+		openbiz.loadApps(['apps/cubi'/*MORE_APPS*/],function(apps){
 			for(var i in apps){
                       apps[i].init();
                   }

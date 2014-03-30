@@ -78,10 +78,10 @@ and the frontend will be accessable via http://yourhost/apps/demo
 require('./apps/demo')(openbiz).loadAppToRoute('/api/demo')
 		.loadUIToRoute('/apps/demo');
 ```
-so far your just made the app's frontend accessable but you didn't tell openbiz to load it on user's browsers.
+So far your just made the app's frontend accessable but you didn't tell openbiz to load it on user's browsers.
 below code will register your app to the frontend.
 
-Please open /public/website/app-init.js
+Please find and open /public/website/app-init.js
 ```javascript
 #You will see something like below,
 openbiz.loadApps(['apps/cubi'/*MORE_APPS*/],function(apps){...}

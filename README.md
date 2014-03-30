@@ -27,7 +27,7 @@ cd openbiz-startup
 node app
 ```
 
-Open your browser to go to http://localhost:8080 .
+Open your browser to go to [http://localhost:8080].
 if you have saw page loaded, means its running.
 
 How to update openbiz libs
@@ -35,3 +35,12 @@ How to update openbiz libs
 ```sh
 ./update-openbiz.sh
 ```
+
+How to generate applications
+-----------------------------
+We have linked openbiz-appbuilder into your project folder.
+```sh
+#To check if appbuilder is executable
+./appbuilder --help
+```
+For more info about how to use appbuilder please reference to openbiz-appbuilder page.

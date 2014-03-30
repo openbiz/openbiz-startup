@@ -1,15 +1,15 @@
 #!/bin/sh
 #clone openbiz server side framework into your project
-git submodule add https://github.com/openbiz/openbiz.git  node_modules/openbiz 
+git submodule add -f https://github.com/openbiz/openbiz.git  node_modules/openbiz 
 
 #clone openbiz client side framework into your project
-git submodule add https://github.com/openbiz/openbiz-ui.git  node_modules/openbiz-ui 
+git submodule add -f https://github.com/openbiz/openbiz-ui.git  node_modules/openbiz-ui 
 
 #clone openbiz client side application platform into your project
-git submodule add https://github.com/openbiz/openbiz-cubi.git  node_modules/openbiz-cubi
+git submodule add -f https://github.com/openbiz/openbiz-cubi.git  node_modules/openbiz-cubi
 
 #clone openbiz application builder into your project
-git submodule add https://github.com/openbiz/openbiz-appbuilder.git  node_modules/openbiz-appbuilder
+git submodule add -f https://github.com/openbiz/openbiz-appbuilder.git  node_modules/openbiz-appbuilder
 
 #install appbuilder tools to local project
 ln -s  `pwd`/node_modules/openbiz-appbuilder/bin/appbuilder ./appbuilder

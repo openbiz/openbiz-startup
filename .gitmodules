@@ -1,0 +1,12 @@
+[submodule "node_modules/openbiz"]
+	path = node_modules/openbiz
+	url = https://github.com/openbiz/openbiz.git
+[submodule "node_modules/openbiz-ui"]
+	path = node_modules/openbiz-ui
+	url = https://github.com/openbiz/openbiz-ui.git
+[submodule "node_modules/openbiz-cubi"]
+	path = node_modules/openbiz-cubi
+	url = https://github.com/openbiz/openbiz-cubi.git
+[submodule "node_modules/openbiz-appbuilder"]
+	path = node_modules/openbiz-appbuilder
+	url = https://github.com/openbiz/openbiz-appbuilder.git

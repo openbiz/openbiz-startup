@@ -83,7 +83,7 @@ below code will register your app to the frontend.
 
 Please find and open /public/website/app-init.js
 ```javascript
-#You will see something like below,
+//You will see something like below, 
 openbiz.loadApps(['apps/cubi'/*MORE_APPS*/],function(apps){...}
 ```
 Now you can add your app's entry point after Cubi, 

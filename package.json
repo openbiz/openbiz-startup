@@ -19,6 +19,7 @@
     "passport-oauth": "~1.0.0",
     "passport-facebook": "~1.0.2",
     "passport-github": "~0.1.5",
-    "passport-twitter": "~1.0.2"
+    "passport-twitter": "~1.0.2",
+    "gridfs-stream":"~0.4.1"
   }
 }

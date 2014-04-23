@@ -19,6 +19,12 @@ exports.db = {
   uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/openbiz'
 };
 exports.cryptoKey = 'YOUR_SECRET_KEY';
+exports.storage={
+  type : 'GridFS',
+  path : "/storage", //require('path').join(require('path').dirname(__filename),'storage'),
+  url: "/storage",
+  tmpPath: require('path').join(require('path').dirname(__filename),'storage','tmp'),
+}
 exports.requireAccountVerification = false;
 exports.smtp = {
   from: {
